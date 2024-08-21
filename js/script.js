@@ -7,7 +7,7 @@ document.getElementById('translateButton').addEventListener('click', async funct
     }
 
     try {
-        const response = await fetch('https://libretranslate.de/translate', {
+        const response = await fetch('https://libretranslate.com/translate', {
             method: 'POST',
             body: JSON.stringify({
                 q: sourceTextValue,
